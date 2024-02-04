@@ -5,31 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <style>
-        section div{
-            margin-left: 500px ;
-            text-align: justify;
-            text-decoration: solid;
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            text-align: center;
+        }
+        header h1,h4,div{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        header nav {
+            margin: 15px auto;
+        }
+        header nav a{
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            color: red;
+            text-transform: uppercase;
+        }
+        section{
+            /*background-color: salmon;*/
+            width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 0px auto;
+        }
+        section>div>h3{
+            /*background-color: blueviolet;*/
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+        }
+        section>h3{
+            text-transform: uppercase;
+        }
+        body{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        section div.sub{
-            
-            text-transform: uppercase;
-            margin-top: 50px;
+        div.sub{
+            margin-left:40px;
         }
+        ul {
+            margin-left: 10px;
+        }
+        
+        div{
+            text-align: center;
+        }
+        
+        
     </style>
 </head>
 <body>
+    <header>
+        <img src="Futureknight.jpeg" alt="futureK" height="140px" width="140px" style="margin-top: 15px;">
+        <h1>Jane doe</h1>
+        <p>1234 Main street, Sometown, CA 93829</p>
+        <p>Tel : 555-555-1212, email : jane@doe.com</p>
+        <nav>
+            <a href="resume(sir).html">🏡home</a>
+            <a href="profile.html">😁profile</a>
+            <a href="about.html">💕about</a>
+        </nav>
+    </header>
     <section>
-        <div>
-            <h3>Nama : Rui orlando</h3>
-            <h3>Kelas : 10.14</h3>
-            <h3>Umur : 15 Tahun</h3>
-            <h3>Sekolah : Ignatius global school</h3>
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 20pt;">
+            <h4>Nama : Rui orlando</h4>
+            <h4>Kelas : 10.14</h4>
+            <h4>Umur : 15 Tahun</h4>
+            <h4>Sekolah : Ignatius global school</h4>
         </div>
 
-        <div class="sub">
-            <a href="resume(sir).html">Go back</a>
-        </div>
+        
     </section>
 </body>
 </html>
